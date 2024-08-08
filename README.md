@@ -3,7 +3,7 @@ Classifying brain tumor images using a pre-trained deep learning model. The app 
 
 ## Dataset
 
-The model is trained on the [Brain Tumor MRI Dataset]([https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)) which consists of 13,900 high-resolution images of both benign and malign tumors.
+The model is trained on the [Brain Tumor MRI Dataset]([https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset))which consist of 7023 images of human brain MRI images which are classified into 4 classes: glioma - meningioma - no tumor and pituitary.
 
 ## Model
 
