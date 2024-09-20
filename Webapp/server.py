@@ -42,14 +42,6 @@ model.eval()
 
 class_name = {0:"glioma_tumor",1:"meningioma_tumor",2:"no_tumor", 3:"pituitary_tumor"}
 
-def loadImg(imgPath): 
-    img = tf.keras.preprocessing.image.load_img(imgPath, target_size=(224, 224))
-    img_array = tf.keras.preprocessing.image.img_to_array(img)
-    img_array = np.expand_dims(img_array, axis=0)
-    img_array = img_array / 255.0
-    return img_array
-    
-
 @app.route('/', methods=['POST'])
 def home(): 
     transform=transforms.Compose([
